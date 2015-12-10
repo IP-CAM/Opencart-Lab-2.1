@@ -67,6 +67,8 @@ class ControllerModuleFeatured extends Controller {
 						'special'     => $special,
 						'tax'         => $tax,
 						'rating'      => $rating,
+                        //el campo model del arreglo, contiene la informacion de modelo del producto
+                        'model'       => $product_info['model'],
 						'href'        => $this->url->link('product/product', 'product_id=' . $product_info['product_id'])
 					);
 				}
