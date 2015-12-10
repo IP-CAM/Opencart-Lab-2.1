@@ -120,6 +120,7 @@
                   <?php } ?>
                   <?php if ($product['tax']) { ?>
                   <span class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
+                  <?php echo $product['model'] ?>
                   <?php } ?>
                 </p>
                 <?php } ?>
